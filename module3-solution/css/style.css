@@ -5,14 +5,14 @@
   font-size: 16px;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 30px;
+#top {
+  margin-top: 15px;
   margin-bottom: 30px;
-  font-size: 1.75em;
+  font-size: 30px;
 }
 
-#row {width:100%;
+#container {
+	width:100%;
 	margin-left:5px;
 	margin-right: 5px;
 	padding: 25px;
@@ -21,21 +21,18 @@ h1 {
 }
 
 .box  {    
-	border: 1px solid black;
 	margin: 15px;
-	background-color: #808080;
+	background-color: #d3d3d3;
+	height: 700px;
 }
 
 h2 {
-  border: 1px solid black;
   border-top: 0px;
   border-right: 0px;
-  width: 30%;
-  float: right;
   text-align: center;
-  padding: 2px;
-  font-size: 1.25em;
-  margin: 0;
+  padding-top: 12px;
+  font-size: 26px !important;
+  margin-top: 5px;
 }
 
 p {
@@ -45,40 +42,24 @@ p {
     margin-left: auto;
 }
 
-#title1 {
-	background-color: 	#e9967a;
+.navbar-header .navbar-brand {
+	font-size: 30px;
+}
+.container-fluid .navbar-header .navbar-brand {
+	color: black;
+}
+.container-fluid {
+	background-color:#d3d3d3;
 }
 
-#title2 {
-	background-color: #b22222;
-	color: 	#ffffff;
+.navbar-default .navbar-header .navbar-toggle {
+	border-color: black !important;
 }
-
-#title3 {
-	background-color: #ffd700;
-}
-
-/********** Desktop View **********/
-@media (min-width: 992px) {
-  .col-md-4 {
-	width: 33.33%;
-	float:left;
-}}
-
-/********** Tablet View **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-sm-6 {
-	width: 50%;
-	float:left;
-}
-  .col-sm-12 {
-	width:100%;
-	float:left;
-}}
 
 /********** Mobile View **********/
 @media (max-width: 767px) {
-  .col-xs-12 {
-	width: 100%;
-	float:left; /*This is to avoid margins to collapse vertically -- margins do not collaps when the elements are floated*/
-}}
+#navbar-collapse-1{
+	background-color: #f0ffff;
+	color: black;
+}
+}
