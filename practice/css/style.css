@@ -1,0 +1,65 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: arial verdana, sans-serif;
+  font-size: 16px;
+}
+
+#top {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#container {
+	width:100%;
+	margin-left:5px;
+	margin-right: 5px;
+	padding: 25px;
+	padding-top: 0px;
+	margin-bottom: 5px;
+}
+
+.box  {    
+	margin: 15px;
+	background-color: #d3d3d3;
+	height: 700px;
+}
+
+h2 {
+  border-top: 0px;
+  border-right: 0px;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 26px !important;
+  margin-top: 5px;
+}
+
+p {
+	clear: both;
+	padding: 10px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-header .navbar-brand {
+	font-size: 30px;
+}
+.container-fluid .navbar-header .navbar-brand {
+	color: black;
+}
+.container-fluid {
+	background-color:#d3d3d3;
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+	border-color: black !important;
+}
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+#navbar-collapse-1{
+	background-color: #f0ffff;
+	color: black;
+}
+}
